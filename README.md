@@ -2,7 +2,7 @@ This is an EDR agent validator project for the Red Canary Engineering Interview.
 
 I created this project using [Typer](https://typer.tiangolo.com/) and you can manage all it's dependencies with [Poetry](https://python-poetry.org/).
 
-It's using [`psutil`](https://github.com/giampaolo/psutil) for cross platform process information gathering and uses [desert](https://desert.readthedocs.io/en/stable/) to serialize its dataclasses to logs (for activity tracking for correlation with EDR agents).
+It's using [`psutil`](https://github.com/giampaolo/psutil) for cross platform process information gathering and uses `[desert]`(https://desert.readthedocs.io/en/stable/) to serialize its dataclasses to logs (for activity tracking for correlation with EDR agents).
 
 The arguments and defaults are all documented in the help menu. You can install it with pip via `pip install edr-agent-validator`.
 
