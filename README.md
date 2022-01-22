@@ -2,13 +2,13 @@ This is an EDR agent validator project for the Red Canary Engineering Interview.
 
 I created this project using [Typer](https://typer.tiangolo.com/) and you can manage all it's dependencies with [Poetry](https://python-poetry.org/).
 
-It's using `[psutil](https://github.com/giampaolo/psutil)` for cross platform process information gathering and uses [desert](https://desert.readthedocs.io/en/stable/) to serialize its dataclasses to logs (for activity tracking for correlation with EDR agents).
+It's using [`psutil`](https://github.com/giampaolo/psutil) for cross platform process information gathering and uses [desert](https://desert.readthedocs.io/en/stable/) to serialize its dataclasses to logs (for activity tracking for correlation with EDR agents).
 
 The arguments and defaults are all documented in the help menu. You can install it with pip via `pip install edr-agent-validator`.
 
 Try it out! By default all actions are appended as JSON to a file in the directory you run the tool in called `activity_log.txt`, but this can be configured.
 
-It's a fairly simple tool, it uses the sockets api for it's network connections, basic python file I/O apis for file creation, modifying, and deletion, and the `[subprocess.Popen](https://docs.python.org/3/library/subprocess.html#subprocess.Popen)` api for launching a background process.
+It's a fairly simple tool, it uses the sockets api for it's network connections, basic python file I/O apis for file creation, modifying, and deletion, and the [`subprocess.Popen`](https://docs.python.org/3/library/subprocess.html#subprocess.Popen) api for launching a background process.
 
 For the network activity component, it can send bytes over UDP or TCP.
 
