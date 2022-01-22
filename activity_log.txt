@@ -1,0 +1,5 @@
+{'process_id': 8774, 'username': 'andrewkennedy', 'activity_type': 'PROCESS_LAUNCH', 'process_name': 'ls', 'timestamp': '2022-01-22T03:47:01.047497', 'process_cmd_line': ['/bin/ls', '-la']}
+{'timestamp': '2022-01-22T03:50:26.068477', 'activity_type': 'PROCESS_LAUNCH', 'process_name': 'ls', 'process_id': 8859, 'username': 'andrewkennedy', 'process_cmd_line': ['/bin/ls', '-al']}
+{'timestamp': '2022-01-22T03:50:52.806398', 'username': 'andrewkennedy', 'process_name': 'ls', 'process_id': 8887, 'activity_type': 'PROCESS_LAUNCH', 'process_cmd_line': ['/bin/ls', '-z']}
+{'process_id': 8919, 'process_cmd_line': ['/bin/ls', '-z'], 'process_name': 'ls', 'timestamp': '2022-01-22T03:52:21.404310', 'username': 'andrewkennedy', 'activity_type': 'PROCESS_LAUNCH'}
+{'activity_type': 'PROCESS_LAUNCH', 'username': 'andrewkennedy', 'process_name': 'ls', 'process_cmd_line': ['/bin/ls', '-a', '-l'], 'process_id': 8927, 'timestamp': '2022-01-22T03:52:25.348964'}

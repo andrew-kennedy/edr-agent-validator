@@ -45,7 +45,7 @@ def cli(
     ctx.obj = log_file
 
 
-@app.command()
+@app.command(context_settings={"ignore_unknown_options": True})
 def launch_process(
     ctx: typer.Context,
     executable: Path = typer.Argument(
@@ -57,7 +57,7 @@ def launch_process(
         resolve_path=True,
         help="Path to the binary to run",
     ),
-    args: Optional[List[str]] = typer.Argument(
+    args: List[str] = typer.Argument(
         None, help="Any arguments to provide to the binary."
     ),
 ) -> None:
