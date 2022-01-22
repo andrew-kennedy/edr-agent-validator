@@ -1,0 +1,8 @@
+[flake8]
+select = B,B9,BLK,C,E,F,I,S,W
+per-file-ignores = tests/*:S101
+ignore = E203,E501,W503,B008
+max-line-length = 88
+application-import-names = edr_agent_validator,tests
+import-order-style = google
+
