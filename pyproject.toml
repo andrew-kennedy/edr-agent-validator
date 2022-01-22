@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "edr-agent-validator"
-version = "0.1.0"
+version = "0.2.0"
 description = "The Red Canary EDR validation tool."
 authors = ["Andrew Kennedy <andrewk36@gmail.com>"]
 homepage = "https://github.com/andrew-kennedy/edr-agent-validator"
